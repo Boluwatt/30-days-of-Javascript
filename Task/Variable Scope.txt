@@ -1,0 +1,15 @@
+Question 1
+What is Variable Scope
+A scope in Javascript refers to the current context of code that determines the accesibility of variables to Javascript.
+A variable scope is therefore the scope in which a variable is accessible to Javascript.
+There are two types of Scope
+Local Variable Scope(declared within a block) and
+Global Variable Scope(declared outside a block).
+
+Question 2
+How is the let keyword different from var.
+The two keywords let and var are both used to declare variables in Javascript but var is a function scope while let is a block scope.
+This means that let is accessible within a block of code whila var is only accesible within a function.
+The var keyword are always function-scoped. This means that they recognize functions as having a seperate scope.
+but the let keyword is block-scoped which means a new local scope is created from any kind of blocks including function blocks.
+Other kinds of blocks are if/else, for and while loops.

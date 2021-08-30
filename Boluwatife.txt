@@ -1,8 +1,0 @@
-Hello, my name is Boluwatife Oluwagbamila.
-I'm a student of FemCode Africa in the 30 days of JavaScript class.
-This is my first task for the class.
-This is a simple text file to be pushed to my github repo.
-At the end of this class, I hope to be a more proficient developer.
-I also hope to be among the five students to win a continued mentorship.
-That is why I am going to put in my best.
-Thank you.

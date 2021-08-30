@@ -1,0 +1,19 @@
+Question 1.  What is the difference between null and undefined?
+
+Null is an empty variable while undefined is used for a variable that is declared but has not
+been assigned. Null is an assignment value. It can be assigned to a variable as a representation 
+of no value. Basically null value means a variable has been explicitly set as no value/null 
+or has been initialized and defined to be nothing. While undefined means it was never initialized 
+or if it was, it was never assigned a value or defined.
+
+
+Question 2. What is NaN in JavaScript? What is the typeof NaN?
+
+The NaN property represents "Not-a-Number" value. This property indicates that a value is not a 
+legal number. “Not a Number” is a value that does not represent a real number, despite having 
+number type. The NaN property is the same as the Number. 
+
+
+Question 3. You can declare a variable by typing let name;. What is the value of name?
+
+The variable "name" has no value. It's value is undefined

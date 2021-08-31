@@ -1,18 +1,17 @@
-const words = document.getElementById("words")
-const button = document.getElementById("btn")
-const message = document.getElementsByClassName("wordnumber")
+const button = document.getElementById("btn");
 
-let wordCount = ("This is not a function")
+const noOfWords = (e) => {
+  const words = document.getElementById("words");
+  let wordCount = words.value;
 
-const noOfWords = () => {
-    return(wordCount.split(" "))
-}
+  let wordNumber = wordCount.split(/\s/);
+  let wordNo = wordNumber.length;
 
-let wordNumber = noOfWords().length
-console.log(wordNumber)
+  let message = document.getElementById("wordnumber");
 
-button.addEventListener("click", showNumber);
+  message.innerHTML = `The number of words is ${wordNo}`;
 
-function showNumber(e) {
-    document.getElementsByClassName("wordnumber").innerHTML = `"The number of words is ${wordNumber}"`
-}
+  words.value = ""
+};
+
+button.addEventListener("click", noOfWords);

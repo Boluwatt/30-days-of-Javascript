@@ -14,4 +14,4 @@ const noOfWords = (e) => {
   words.value = ""
 };
 
-button.addEventListener("click", noOfWords);
+button.addEventListener("click", noOfWords)
